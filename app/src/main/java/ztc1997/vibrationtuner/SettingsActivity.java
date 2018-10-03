@@ -131,7 +131,7 @@ public class SettingsActivity extends AppCompatActivity {
         @Override
         public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            getPreferenceManager().setSharedPreferencesMode(Context.MODE_WORLD_READABLE);
+            getPreferenceManager().setSharedPreferencesMode(Context.MODE_PRIVATE);
             addPreferencesFromResource(R.xml.settings);
             preferences = getPreferenceScreen().getSharedPreferences();
         }
