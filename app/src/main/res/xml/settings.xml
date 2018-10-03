@@ -21,12 +21,7 @@
         android:key="pref_global_vib_strength"
         android:title="@string/global_vib_strength_title"
         android:enabled="true"
-        android:defaultValue="100"
-        monitorBoxEnabled="true"
-        minimum="0"
-        maximum="200"
-        interval="10"
-        monitorBoxUnit="%"/>
+        android:defaultValue="100"/>
 
     <PreferenceCategory android:title="@string/special_vib_title">
 
@@ -34,56 +29,31 @@
             android:key="pref_long_press_vib_strength"
             android:title="@string/long_press_vib_strength_title"
             android:enabled="true"
-            android:defaultValue="100"
-            monitorBoxEnabled="true"
-            minimum="0"
-            maximum="200"
-            interval="10"
-            monitorBoxUnit="%"/>
+            android:defaultValue="100"/>
 
         <ztc1997.vibrationtuner.SeekBarPreference
             android:key="pref_virtual_key_vib_strength"
             android:title="@string/virtual_key_vib_strength_title"
             android:enabled="true"
-            android:defaultValue="100"
-            monitorBoxEnabled="true"
-            minimum="0"
-            maximum="200"
-            interval="10"
-            monitorBoxUnit="%"/>
+            android:defaultValue="100"/>
 
         <ztc1997.vibrationtuner.SeekBarPreference
             android:key="pref_keyboard_tap_vib_strength"
             android:title="@string/keyboard_tap_vib_strength_title"
             android:enabled="true"
-            android:defaultValue="100"
-            monitorBoxEnabled="true"
-            minimum="0"
-            maximum="200"
-            interval="10"
-            monitorBoxUnit="%"/>
+            android:defaultValue="100"/>
 
         <ztc1997.vibrationtuner.SeekBarPreference
             android:key="pref_clock_tick_vib_strength"
             android:title="@string/clock_tick_vib_strength_title"
             android:enabled="true"
-            android:defaultValue="100"
-            monitorBoxEnabled="true"
-            minimum="0"
-            maximum="200"
-            interval="10"
-            monitorBoxUnit="%"/>
+            android:defaultValue="100"/>
 
         <ztc1997.vibrationtuner.SeekBarPreference
             android:key="pref_calendar_date_vib_strength"
             android:title="@string/calendar_date_vib_strength_title"
             android:enabled="true"
-            android:defaultValue="100"
-            monitorBoxEnabled="true"
-            minimum="0"
-            maximum="200"
-            interval="10"
-            monitorBoxUnit="%"/>
+            android:defaultValue="100"/>
 
     </PreferenceCategory>
 
